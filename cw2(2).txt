@@ -8,9 +8,10 @@ public class Main
 	    System.out.println("you can enter");
 		}
 		
-		else {
-		    System.out.println("you can't enter");
+		else if (height<160) {
+		    	    System.out.println("you can't enter");
+		    
 		}
-	    
 	}
 }
+
